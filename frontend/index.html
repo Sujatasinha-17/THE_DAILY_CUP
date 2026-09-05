@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Daily Cup — Coffee, made for your morning</title>
+    <meta name="description" content="The Daily Cup is a neighborhood coffee shop serving small-batch roasts, espresso and fresh bakes every day from 7am." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- ===== NAV ===== -->
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <a href="#top" class="brand">
+                <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="30" height="30">
+          <path d="M8 18h26a4 4 0 0 1 4 4v2c4 0 7 3 7 7s-3 7-7 7h-1.6C34.6 41.6 31 44 26.8 44H15c-5 0-8-3-8-8V18z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M38 24c2.4 0 4 1.8 4 4s-1.6 4-4 4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+          <path d="M15 8c-1.5 2-1.5 3.5 0 5.5M22 8c-1.5 2-1.5 3.5 0 5.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+        </svg>
+      </span>
+                <span class="brand-word">The Daily Cup</span>
+            </a>
+
+            <nav class="main-nav" id="main-nav" aria-label="Primary">
+                <a href="#menu">Menu</a>
+                <a href="#story">Our Story</a>
+                <a href="#visit">Visit</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact" class="nav-cta">Order Ahead</a>
+            </nav>
+
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero-ring hero-ring--1" aria-hidden="true"></div>
+        <div class="hero-ring hero-ring--2" aria-hidden="true"></div>
+
+        <div class="hero-inner">
+            <p class="eyebrow">Open daily · 7:00 AM — 7:00 PM</p>
+            <h1 class="hero-title">
+                One good cup <span class="hero-title-italic">changes</span> the whole day.
+            </h1>
+            <p class="hero-sub">
+                Small-batch roasted, brewed to order, and served by people who remember how you take it. Welcome to The Daily Cup — your corner of calm before the day starts.
+            </p>
+
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">See the menu</a>
+                <a href="#visit" class="btn btn-ghost">Find us</a>
+            </div>
+
+            <div class="hero-steam" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+
+        <div class="hero-ticket" aria-hidden="true">
+            <div class="ticket-row"><span>Order&nbsp;#0142</span><span>Table&nbsp;3</span></div>
+            <div class="ticket-line"></div>
+            <div class="ticket-row"><span>Flat White</span><span>4.50</span></div>
+            <div class="ticket-row"><span>Banana Bread</span><span>3.75</span></div>
+            <div class="ticket-line"></div>
+            <div class="ticket-row ticket-total"><span>Enjoy your day</span><span>☕</span></div>
+        </div>
+    </section>
+
+    <!-- ===== VALUE STRIPS ===== -->
+    <section class="strip" aria-label="Highlights">
+        <div class="strip-inner">
+            <div class="strip-item">
+                <span class="strip-num">01</span>
+                <p>Roasted in small batches every Tuesday — never more than two weeks old in your cup.</p>
+            </div>
+            <div class="strip-item">
+                <span class="strip-num">02</span>
+                <p>Oat, almond, or whole milk at no extra charge. Good coffee shouldn't cost more to enjoy your way.</p>
+            </div>
+            <div class="strip-item">
+                <span class="strip-num">03</span>
+                <p>Free refill on drip coffee for anyone reading, working, or just staying a while.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MENU ===== -->
+    <section class="menu" id="menu">
+        <div class="section-head">
+            <p class="eyebrow">The Board</p>
+            <h2>What's brewing today</h2>
+            <p class="section-sub">Prices in USD. Ask your barista about today's single-origin pour-over.</p>
+        </div>
+
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+            <button class="tab-btn is-active" role="tab" aria-selected="true" data-tab="coffee">Coffee</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="cold">Cold Brews</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="bakes">Fresh Bakes</button>
+        </div>
+
+        <div class="menu-panel is-active" data-panel="coffee">
+            <ul class="menu-list">
+                <li><span class="m-name">Espresso</span><span class="m-dots"></span><span class="m-price">3.00</span></li>
+                <li><span class="m-name">Americano</span><span class="m-dots"></span><span class="m-price">3.50</span></li>
+                <li><span class="m-name">Cappuccino</span><span class="m-dots"></span><span class="m-price">4.00</span></li>
+                <li><span class="m-name">Flat White</span><span class="m-dots"></span><span class="m-price">4.50</span></li>
+                <li><span class="m-name">Caffè Latte</span><span class="m-dots"></span><span class="m-price">4.50</span></li>
+                <li><span class="m-name">Mocha</span><span class="m-dots"></span><span class="m-price">4.75</span></li>
+                <li><span class="m-name">Pour-Over, single origin</span><span class="m-dots"></span><span class="m-price">5.25</span></li>
+            </ul>
+        </div>
+
+        <div class="menu-panel" data-panel="cold">
+            <ul class="menu-list">
+                <li><span class="m-name">Cold Brew</span><span class="m-dots"></span><span class="m-price">4.25</span></li>
+                <li><span class="m-name">Iced Latte</span><span class="m-dots"></span><span class="m-price">4.75</span></li>
+                <li><span class="m-name">Vietnamese Iced Coffee</span><span class="m-dots"></span><span class="m-price">5.00</span></li>
+                <li><span class="m-name">Nitro Cold Brew</span><span class="m-dots"></span><span class="m-price">5.25</span></li>
+                <li><span class="m-name">Iced Matcha Latte</span><span class="m-dots"></span><span class="m-price">5.00</span></li>
+            </ul>
+        </div>
+
+        <div class="menu-panel" data-panel="bakes">
+            <ul class="menu-list">
+                <li><span class="m-name">Butter Croissant</span><span class="m-dots"></span><span class="m-price">3.25</span></li>
+                <li><span class="m-name">Banana Bread</span><span class="m-dots"></span><span class="m-price">3.75</span></li>
+                <li><span class="m-name">Blueberry Muffin</span><span class="m-dots"></span><span class="m-price">3.50</span></li>
+                <li><span class="m-name">Cinnamon Roll</span><span class="m-dots"></span><span class="m-price">4.00</span></li>
+                <li><span class="m-name">Avocado Toast</span><span class="m-dots"></span><span class="m-price">6.50</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ===== STORY ===== -->
+    <section class="story" id="story">
+        <div class="story-inner">
+            <div class="story-text">
+                <p class="eyebrow">Since 2018</p>
+                <h2>Started with one espresso machine and a folding table.</h2>
+                <p>
+                    The Daily Cup began as a weekend cart outside a hardware store. What people kept coming back for wasn't just the espresso — it was the five minutes of quiet before the day got loud. That's still the whole idea. We roast close by, pour with care, and keep
+                    the room easy to sit in for longer than a coffee usually takes.
+                </p>
+                <p>
+                    Today we're a full café with the same folding table still bolted to the wall by the door, as a reminder of where this started.
+                </p>
+            </div>
+            <div class="story-stat-card">
+                <div class="stat"><span class="stat-num">7</span><span class="stat-label">years pulling shots</span></div>
+                <div class="stat"><span class="stat-num">40+</span><span class="stat-label">single-origin lots poured</span></div>
+                <div class="stat"><span class="stat-num">6am</span><span class="stat-label">first batch, every day</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== REVIEWS ===== -->
+    <section class="reviews" id="reviews">
+        <div class="section-head">
+            <p class="eyebrow">From the Regulars</p>
+            <h2>Loyalty, one cup at a time</h2>
+        </div>
+        <div class="review-grid">
+            <blockquote class="review-card">
+                <p>"The flat white here ruined every other coffee shop for me. Consistent, every single time."</p>
+                <cite>— Amrita R.</cite>
+            </blockquote>
+            <blockquote class="review-card">
+                <p>"I do my Sunday reading here. Nobody rushes you out, and the refills are genuinely free."</p>
+                <cite>— Sunny K.</cite>
+            </blockquote>
+            <blockquote class="review-card">
+                <p>"Banana bread sells out by 10am for a reason. Get there early."</p>
+                <cite>— Priya Shah</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- ===== VISIT / CONTACT ===== -->
+    <section class="visit" id="visit">
+        <div class="visit-inner">
+            <div class="visit-info">
+                <p class="eyebrow">Visit</p>
+                <h2>Come sit with us</h2>
+                <ul class="info-list">
+                    <li><strong>Address</strong><span>Anisabad, Patna Bihar-800002</span></li>
+                    <li><strong>Hours</strong><span>Mon–Sun, 7:00 AM – 7:00 PM</span></li>
+                    <li><strong>Phone</strong><span>9876543210</span></li>
+                </ul>
+            </div>
+
+            <form class="contact-form" id="contactForm" novalidate>
+                <p class="eyebrow" id="contact">Order Ahead / Say Hello</p>
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="What can we get started for you?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="submitBtn">Send message</button>
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">The Daily Cup</div>
+            <p>&copy; <span id="year"></span> The Daily Cup. Made with Suji, one cup at a time.</p>
+            <div class="footer-links">
+                <a href="#menu">Menu</a>
+                <a href="#story">Our Story</a>
+                <a href="#visit">Visit</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

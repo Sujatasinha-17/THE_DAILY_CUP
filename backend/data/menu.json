@@ -1,0 +1,25 @@
+{
+  "coffee": [
+    { "id": "esp-01", "name": "Espresso", "price": 3.0 },
+    { "id": "ame-01", "name": "Americano", "price": 3.5 },
+    { "id": "cap-01", "name": "Cappuccino", "price": 4.0 },
+    { "id": "flw-01", "name": "Flat White", "price": 4.5 },
+    { "id": "lat-01", "name": "Caffè Latte", "price": 4.5 },
+    { "id": "moc-01", "name": "Mocha", "price": 4.75 },
+    { "id": "pov-01", "name": "Pour-Over, single origin", "price": 5.25 }
+  ],
+  "cold": [
+    { "id": "cbr-01", "name": "Cold Brew", "price": 4.25 },
+    { "id": "ila-01", "name": "Iced Latte", "price": 4.75 },
+    { "id": "vnc-01", "name": "Vietnamese Iced Coffee", "price": 5.0 },
+    { "id": "ncb-01", "name": "Nitro Cold Brew", "price": 5.25 },
+    { "id": "imt-01", "name": "Iced Matcha Latte", "price": 5.0 }
+  ],
+  "bakes": [
+    { "id": "crs-01", "name": "Butter Croissant", "price": 3.25 },
+    { "id": "bnb-01", "name": "Banana Bread", "price": 3.75 },
+    { "id": "blm-01", "name": "Blueberry Muffin", "price": 3.5 },
+    { "id": "cnr-01", "name": "Cinnamon Roll", "price": 4.0 },
+    { "id": "avt-01", "name": "Avocado Toast", "price": 6.5 }
+  ]
+}
