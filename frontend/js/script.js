@@ -1,7 +1,6 @@
 // ===== The Daily Cup — frontend logic =====
 
-// Point this at your backend when deploying (see README).
-const API_BASE_URL = "http://localhost:4000";
+const API_BASE_URL = "https://the-daily-cup.onrender.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   setYear();
